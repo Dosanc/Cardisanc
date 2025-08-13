@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cardisanc - Cuidado tu corazón</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: white; color: #333; }
+    header { background-color: #800020; color: white; display: flex; align-items: center; padding: 10px; }
+    header img { height: 60px; margin-right: 15px; }
+    nav { background-color: #003366; padding: 10px; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    footer { background-color: #800020; color: white; text-align: center; padding: 10px; }
+</style>
+</head>
+<body>
+
+<header>
+    <img src="assets/logo-cardisanc.png" alt="Logo Cardisanc">
+    <div>
+        <h1>Cardisanc</h1>
+        <p>Cuidado tu corazón</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#ubicacion">Ubicación</a>
+</nav>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Consultas cardiológicas</li>
+        <li>Valoración cardiológica prequirúrgica</li>
+        <li>Valoración cardiológica previo a entrenamientos</li>
+        <li>Control de cirugía cardíaca</li>
+        <li>Electrocardiograma</li>
+        <li>Ecocardiograma Doppler</li>
+        <li>Control de marcapasos</li>
+        <li>Holter de ritmo de 24 horas</li>
+        <li>Monitoreo continuo ambulatorio de presión arterial (MAPA)</li>
+        <li>Emergencias cardiovasculares</li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Juan Rolando Coello 201, Guayaquil 090512, Ecuador</p>
+    <p><strong>Teléfono:</strong> 0963240381</p>
+    <p><strong>Email:</strong> <a href="mailto:cardisanc.ec@gmail.com">cardisanc.ec@gmail.com</a></p>
+    <p><strong>Horario:</strong> Lunes a Viernes: 10:00 am - 6:00 pm | Sábados y Domingos: Cerrado</p>
+
+    <form action="gracias.html" method="get">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br>
+        <label>Mensaje:</label><br>
+        <textarea name="mensaje" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<section id="ubicacion">
+    <h2>Ubicación</h2>
+    <iframe src="https://www.google.com/maps?q=Juan+Rolando+Coello+201,+Guayaquil,+Ecuador&output=embed" width="100%" height="300" style="border:0;"></iframe>
+</section>
+
+<footer>
+    <p>© 2025 Cardisanc - Cuidado tu corazón</p>
+</footer>
+
+</body>
+</html>
