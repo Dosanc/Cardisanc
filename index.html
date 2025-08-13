@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardisanc - Cuidado tu corazón</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #800020; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #003366; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; max-width: 1000px; margin: auto; }
+        h2 { color: #800020; }
+        footer { background-color: #003366; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+        .whatsapp { position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; border-radius: 50%; padding: 15px; text-decoration: none; font-size: 24px; }
+        form { background-color: #f4f4f4; padding: 20px; border-radius: 10px; }
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background-color: #800020; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #a00028; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cardisanc</h1>
+    <p>Cuidado tu corazón</p>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#ubicacion">Ubicación</a>
+</nav>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Consultas cardiológicas</li>
+        <li>Valoración cardiológica prequirúrgica</li>
+        <li>Valoración cardiológica previo a entrenamientos</li>
+        <li>Control de cirugía cardíaca</li>
+        <li>Electrocardiograma</li>
+        <li>Ecocardiograma Doppler</li>
+        <li>Control de marcapasos</li>
+        <li>Holter de ritmo de 24 horas</li>
+        <li>Monitoreo continuo ambulatorio de presión arterial (MAPA)</li>
+        <li>Emergencias cardiovasculares</li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Juan Rolando Coello 201, Guayaquil 090512, Ecuador</p>
+    <p><strong>Teléfono:</strong> 0963240381</p>
+    <p><strong>Email:</strong> cardisanc.ec@gmail.com</p>
+    <p><strong>Horario de atención:</strong><br>
+       Lunes a Viernes: 10:00 am - 6:00 pm<br>
+       Sábados y Domingos: Cerrado</p>
+
+    <form action="https://formsubmit.co/cardisanc.ec@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu email" required>
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+        <input type="hidden" name="_next" value="https://TU_USUARIO.github.io/gracias.html">
+        <input type="hidden" name="_captcha" value="false">
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<section id="ubicacion">
+    <h2>Ubicación</h2>
+    <iframe src="https://www.google.com/maps?q=Juan+Rolando+Coello+201+Guayaquil+Ecuador&output=embed" width="100%" height="300" style="border:0;"></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2025 Cardisanc - Cuidado tu corazón</p>
+</footer>
+
+<a href="https://wa.me/593963240381" class="whatsapp">💬</a>
+
+</body>
+</html>
