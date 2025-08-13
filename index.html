@@ -72,6 +72,35 @@
 <footer>
     <p>© 2025 Cardisanc - Cuidado tu corazón</p>
 </footer>
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/593963240381?text=Hola%20Cardisanc,%20quisiera%20más%20información." 
+   class="whatsapp-float" target="_blank">
+    <img src="assets/whatsapp.png" alt="WhatsApp" />
+</a>
 
+<style>
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+}
+.whatsapp-float:hover {
+    background-color: #1ebe5b;
+}
+</style>
 </body>
 </html>
